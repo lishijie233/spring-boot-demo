@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.su.mapper.UserMapper">
+    <!--namespace根据自己需要创建的的mapper的路径和名称填写-->
+    <resultMap id="BaseResultMap" type="com.su.entity.UserInfo">
+        <result column="ID" jdbcType="INTEGER" property="id" />
+        <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
+        <result column="ADDRESS" jdbcType="VARCHAR" property="address" />
+    </resultMap>
+
+    <select id="getUser" resultType="com.su.entity.UserInfo">
+	    SELECT * FROM USER_INFO WHERE ID = #{id}
+    </select>
+</mapper>
