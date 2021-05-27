@@ -24,7 +24,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-common" options="-parameters" />
-      <module name="spring-boot-demo" options="-parameters" />
+      <module name="spring-boot-demo" options="" />
       <module name="spring-boot-hello" options="-parameters" />
       <module name="spring-boot-mybatis" options="-parameters" />
       <module name="spring-boot-thymeleaf" options="-parameters" />
