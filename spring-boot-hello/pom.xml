@@ -8,7 +8,6 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<groupId>com.su</groupId>
 	<artifactId>spring-boot-hello</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-hello</name>
