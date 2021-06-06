@@ -21,6 +21,7 @@
         <module>spring-boot-thymeleaf</module>
         <module>spring-boot-mybatis</module>
         <module>spring-boot-common</module>
+        <module>demo-00-common</module>
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>

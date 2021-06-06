@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-thymeleaf" />
         <module name="spring-boot-mybatis" />
+        <module name="demo-00-common" />
         <module name="spring-boot-common" />
         <module name="spring-boot-hello" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="demo-00-common" target="1.8" />
       <module name="spring-boot-common" target="1.8" />
       <module name="spring-boot-demo" target="1.8" />
       <module name="spring-boot-hello" target="1.8" />
@@ -23,6 +25,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo-00-common" options="-parameters" />
       <module name="spring-boot-common" options="-parameters" />
       <module name="spring-boot-demo" options="" />
       <module name="spring-boot-hello" options="-parameters" />
